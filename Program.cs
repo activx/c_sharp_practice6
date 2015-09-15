@@ -16,7 +16,7 @@ namespace practic6
             Complex firstComplexNumber = new Complex(1, 2);
             Complex secondComplexNumber = new Complex(1, 2);
             Complex sumComplexNumber = firstComplexNumber + secondComplexNumber;
-            Console.WriteLine(sumComplexNumber.getObjectAsString());
+            Console.WriteLine(sumComplexNumber.GetObjectAsString());
         }
 
         

@@ -28,7 +28,7 @@ namespace practic6
             return new Complex(numberFirst.re - numberSecond.re, numberFirst.im - numberSecond.im);
         }
 
-        public String getObjectAsString(){
+        public String GetObjectAsString(){
             return  "(" + re + ";" + im + "i)" ;
         }
 
