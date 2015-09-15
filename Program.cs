@@ -13,6 +13,15 @@ namespace practic6
             Circle firstCircle = new Circle(-2, -3, 3); 
             Console.WriteLine("Point in circle: " + firstCircle.CheckPointInCircle(1,-3));
             Console.WriteLine(firstCircle.getObjectAsString());
+            Complex firstComplexNumber = new Complex(1, 2);
+            Complex secondComplexNumber = new Complex(1, 2);
+            Complex sumComplexNumber = firstComplexNumber + secondComplexNumber;
+            Console.WriteLine(sumComplexNumber.getObjectAsString());
         }
+
+        
+
+        
+
     }
 }
